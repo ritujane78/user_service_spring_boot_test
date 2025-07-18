@@ -1,1 +1,10 @@
-# Spring Boot Unit and Integration Tests
+# Spring Boot Web layer and Integration Tests
+
+Test Methods
+
+testCreateUser_whenValidUserDetailsProvided_returnsCreatedUserDetails
+testCreateUser_whenFirstNameIsNotProvided_returns400StatusCode
+testCreateUser_whenFirstNameIsOnlyOneCharacter_returns400StatusCode
+
+Integration test
+testCreateUser_whenValidUserDetailsProvided_returnCreatedUserDetails
